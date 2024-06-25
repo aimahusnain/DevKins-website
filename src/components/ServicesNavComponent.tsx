@@ -179,6 +179,130 @@ const services: Service[] = [
       },
     ],
   },
+
+  {
+    link: "/videography-&-photography",
+    name: "Videography & Photography",
+    desc: "Welcome to our world of Photography and Videography, where moments come alive through the lens. Whether you're looking to capture cherished memories, promote your brand, or express your creativity, we provide a comprehensive range of services tailored to your needs.",
+    subServices: [
+      {
+        title: "Professional Photography Services",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "Capturing timeless moments with skill and passion, our professional photography services span weddings, events, portraits, and corporate sessions, ensuring every image tells a compelling story.",
+      },
+      {
+        title: "Videography Services",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "From promotional videos to cinematic masterpieces, our videography services craft engaging narratives that resonate. Whether for weddings, corporate events, or documentaries, we bring stories to life through dynamic visuals.",
+      },
+      {
+        title: "Product Photography",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "Highlighting products with precision and style, our product photography services enhance brand visibility and appeal. Ideal for e-commerce, advertising, and catalogues, we showcase your products in the best light.",
+      },
+      {
+        title: "Event Photography",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Preserving memories with professionalism and warmth, our event photography services capture the essence of special occasions. From birthdays to corporate functions, we ensure every moment is treasured.",
+      },
+      {
+        title: "Video Editing and Post-Production",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "Transforming raw footage into polished masterpieces, our video editing services elevate your content with expert precision. Whether for social media reels, promotional clips, or documentaries, we deliver compelling visuals and seamless storytelling.",
+      },
+      {
+        title: "Model Photography",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Bringing fashion and personality to the forefront, our model photography services capture the essence of individuals and products alike. With a focus on elegance and detail, we create stunning visuals that resonate with your audience.",
+      },
+    ],
+  },
+
+  {
+    link: "/performance-marketing",
+    name: "Performance Marketing",
+    desc: "Performance marketing is a comprehensive approach to digital advertising and promotion that focuses on measurable outcomes. Unlike traditional marketing methods that prioritize brand awareness, performance marketing emphasizes direct response and measurable actions, such as clicks, conversions, or sales. This data-driven approach allows marketers to optimize their strategies based on real-time results and ROI.",
+    subServices: [
+      {
+        title: "Competitor Research",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "Analyzing competitors' strategies and performance metrics to refine your own marketing tactics and gain a competitive advantage.",
+      },
+      {
+        title: "Audience & Creative Testing:",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "Experimenting with different audience segments and creative elements (like ad copy, images, or videos) to identify the most effective combinations for driving engagement and conversions.",
+      },
+      {
+        title: "Ad Account Structure Setup",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "Organizing campaigns, ad groups, and ads within an ad account to maximize efficiency, budget management, and performance tracking.",
+      },
+      {
+        title: "Audience Data Analysis",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Gathering and interpreting data on audience behavior and demographics to tailor marketing efforts for better targeting and personalization.",
+      },
+      {
+        title: "Constant Monitoring",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "Continuously tracking and analyzing campaign performance metrics to detect trends, anomalies, and opportunities for optimization in real-time.",
+      },
+      {
+        title: "Data-Driven Marketing",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Using analytics and insights to inform strategic decisions, optimize campaigns, and allocate resources effectively based on measurable data.",
+      },
+      {
+        title: "Website Conversion Rate Optimization",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Improving the percentage of website visitors who take desired actions (like purchases or form submissions) through techniques like A/B testing and improving user experience.",
+      },
+      {
+        title: "Contingency Plan",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Developing alternative strategies and protocols to mitigate risks and respond effectively to unforeseen changes or challenges in the market.",
+      },
+      {
+        title: "Ad Creatives & Video Editing",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Crafting compelling ad creatives and videos that resonate with audiences, communicate brand messages effectively, and drive engagement and conversions.",
+      },
+    ],
+  },
+
+  {
+    link: "/design-and-branding",
+    name: "Social Media Management",
+    desc: "Social Media Management is crucial for businesses and individuals looking to effectively leverage platforms like Facebook, Instagram, and LinkedIn to enhance their online presence, engage with their audience, and achieve their marketing goals. It involves the strategic planning, execution, and optimization of content across various social media platforms to maximize reach, engagement, and conversions.",
+    subServices: [
+      {
+        title: "Content Creation and Calendar Management",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "We create unique, memorable logos that embody your brand's identity and resonate with your audience.",
+      },
+      {
+        title: "Campaign Strategy and Execution",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "Our cohesive color palettes ensure consistency across print (CMYK) and digital (RGB), evoking the right emotions for your brand.",
+      },
+      {
+        title: "Community Engagement and Storytelling",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "We select and customize fonts that enhance readability and convey your brand's tone and character.",
+      },
+      {
+        title: "Analytics and Performance Monitoring",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Our detailed brand guidelines ensure consistent use of logos, colors, typography, and imagery across all communications.",
+      },
+      {
+        title: "Platform-Specific Expertise",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "We craft memorable taglines that encapsulate your brand's essence and differentiate you from competitors.",
+      },
+    ],
+  },
   {
     link: "/design-and-branding",
     name: "Design & Branding",
@@ -417,6 +541,7 @@ const services: Service[] = [
       },
     ],
   },
+
   {
     link: "/graphicDesigns",
     name: "Graphic Design",
@@ -460,6 +585,62 @@ const services: Service[] = [
       },
     ],
   },
+
+
+  {
+    link: "/insta-reels",
+    name: "Instagram Reels",
+    desc: "Instagram Reels are short, engaging videos that allow users to express creativity, connect with followers, and reach a wider audience. This comprehensive guide covers everything from creation to posting, ideas, trending audios, and more, helping you master the art of Reels.",
+
+    subServices: [
+      {
+        title: "Reels Creation: 15",
+        link: "/graphicDesigns/logo-designing",
+        desc: "Learn how posting at least 15 Reels helps you analyze engagement and refine your content strategy for better results.",
+      },
+      {
+        title: "Reels Creation: 15",
+        link: "/graphicDesigns/print-design",
+        desc: "Follow a 15-step guide on planning, filming, editing, and optimizing your Reels for maximum impact.",
+      },
+      {
+        title: "Reels Ideas: 15",
+        link: "/graphicDesigns/digital-illustration",
+        desc: "Discover 15 creative ideas for your Reels, ranging from tutorials and challenges to behind-the-scenes looks and product showcases.",
+      },
+      {
+        title: "Trending Audios for Reels",
+        link: "/graphicDesigns/web-graphic",
+        desc: "Stay updated with the latest trending audios to increase your Reels' reach and engagement.",
+      },
+      {
+        title: "Reels Posting",
+        link: "/graphicDesigns/social-media-graphic",
+        desc: "Learn the best practices for posting your Reels, including optimal times, frequency, and effective use of captions and hashtags.",
+      },
+      {
+        title: "Reels Copy: 15",
+        link: "/packaging-design",
+        desc: "Get 15 tips for writing captivating captions that enhance engagement and effectively convey your message.",
+      },
+      {
+        title: "Reels Description: 15",
+        link: "/graphicDesigns/infographic-design",
+        desc: "Discover 15 strategies for crafting effective Reels descriptions that capture attention and encourage interaction.",
+      },
+      {
+        title: "Reels Hashtags",
+        link: "/graphicDesigns/infographic-design",
+        desc: "Understand the importance of hashtags, how to select the right ones, and the optimal number to use to increase your Reels' visibility.",
+      },
+      {
+        title: "Reels Creative Thumbnails",
+        link: "/graphicDesigns/infographic-design",
+        desc: "Learn best practices for designing eye-catching thumbnails that grab attention and increase the likelihood of users watching your Reels.",
+      },
+    ],
+  },
+
   {
     link: "/digital-marketing",
     name: "Digital Marketing",
@@ -513,6 +694,7 @@ const services: Service[] = [
       },
     ],
   },
+
   {
     link: "/VideoEditing",
     name: "Video Editing",
@@ -551,6 +733,7 @@ const services: Service[] = [
       },
     ],
   },
+  
   {
     link: "/quickbooks",
     name: "QuickBooks",
@@ -612,7 +795,7 @@ const ServicesDropdown = () => {
         }`}
       >
         <div className="flex h-full">
-          <div className="w-1/4 bg-gray-200 p-4 rounded-lg mr-4">
+          <div className="w-1/4 bg-gray-200 p-4 overflow-y-auto rounded-lg mr-4">
             {services.map((service, index) => (
               <Link key={index} onClick={handleLinkClick} href={`${service.link}`}>
                 <div
@@ -624,7 +807,7 @@ const ServicesDropdown = () => {
                 </div>
               </Link>
             ))}
-          </div>
+          </div>          
           <div className="w-3/4 p-4 rounded-lg bg-gray-100 overflow-y-auto max-h-[70vh]">
             {hoveredService ? (
               <div className="">

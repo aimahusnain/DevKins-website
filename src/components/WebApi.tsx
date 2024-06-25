@@ -14,9 +14,7 @@ export default function WebApi() {
     isResumed,
     isEnded,
     speak,
-    pause,
-    resume,
-    cancel,
+
     setLanguage,
   } = useSpeachSynthesisApi();
 

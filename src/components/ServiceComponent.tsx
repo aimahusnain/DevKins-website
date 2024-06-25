@@ -1,16 +1,9 @@
 "use client";
 import React, { useRef } from "react";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import Image from "next/image";
 import { Check } from "lucide-react";
+import Image from "next/image";
 
 interface ValueComponentProps {
   title: string,
