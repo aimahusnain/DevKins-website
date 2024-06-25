@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { Button } from "../../../../../Devkins/src/components/ui/button";
-import { Input } from "../../../../../Devkins/src/components/ui/input";
+import { Button } from "../../../../../src/components/ui/button";
+import { Input } from "../../../../../src/components/ui/input";
 
 const kbToMb = (kilobytes: number): number => {
   return kilobytes / 1024;
