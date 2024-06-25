@@ -90,7 +90,7 @@ export default function VideoEditing() {
                 description: 'Create custom effects and animations to add a unique touch to your videos.'
               }
             ].map((service, index) => (
-              <Link href={`/VideoEditing/${service.link}`}>
+              <Link key={index} href={`/VideoEditing/${service.link}`}>
               <motion.div
                 key={index}
                 className="bg-white p-8 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"

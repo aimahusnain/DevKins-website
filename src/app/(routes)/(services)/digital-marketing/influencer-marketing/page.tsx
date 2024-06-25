@@ -55,7 +55,7 @@ const InfluencerMarketing: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-4 text-lg"
           >
-            Amplify your brand's reach and engagement through strategic influencer partnerships.
+            Amplify your brand&apos;s reach and engagement through strategic influencer partnerships.
           </motion.p>
         </div>
       </motion.section>
@@ -85,8 +85,8 @@ const InfluencerMarketing: React.FC = () => {
 
         {/* CTA Section */}
         <section className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ready to Boost Your Brand's Presence?</h2>
-          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our influencer marketing services can elevate your brand's reach and engagement.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ready to Boost Your Brand&apos;s Presence?</h2>
+          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our influencer marketing services can elevate your brand&apos;s reach and engagement.</p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
