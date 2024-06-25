@@ -47,7 +47,7 @@ const WebGraphics = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-4 text-lg"
           >
-            Design graphics that enhance your website's visual appeal and user experience.
+            Design graphics that enhance your website&apos;s visual appeal and user experience.
           </motion.p>
         </div>
       </motion.section>
@@ -74,8 +74,8 @@ const WebGraphics = () => {
 
         {/* CTA Section */}
         <section className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Enhance Your Website's Appeal</h2>
-          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our web graphics services can elevate your website's visual presence.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Enhance Your Website&apos;s Appeal</h2>
+          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our web graphics services can elevate your website&apos;s visual presence.</p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

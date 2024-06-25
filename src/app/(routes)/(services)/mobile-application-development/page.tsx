@@ -127,7 +127,7 @@ export default function MobileAppDevelopment() {
                   "We assist in deploying your app to app stores and optimize its performance to reach a wider audience and maximize downloads.",
               },
             ].map((service, index) => (
-              <Link href={`${service.link}`}>
+              <Link key={index} href={`${service.link}`}>
                 <motion.div
                   key={index}
                   className="bg-white p-8 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
