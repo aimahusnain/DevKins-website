@@ -54,8 +54,8 @@ export default function Home() {
           </select>
         </div>
         <ValueInput label="Value" value={value} onChange={setValue} />
-        <UnitSelect label="From" options={units[category]} value={fromUnit} onChange={setFromUnit} />
-        <UnitSelect label="To" options={units[category]} value={toUnit} onChange={setToUnit} />
+        {/* <UnitSelect label="From" options={units[category]} value={fromUnit} onChange={setFromUnit} />
+        <UnitSelect label="To" options={units[category]} value={toUnit} onChange={setToUnit} /> */}
         {result !== null && (
           <div className="mt-8 p-6 bg-blue-50 rounded-lg shadow-inner">
             <p className="text-xl font-semibold text-blue-600">{`${value} ${fromUnit} = ${result} ${toUnit}`}</p>
