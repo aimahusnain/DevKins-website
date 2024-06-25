@@ -16,6 +16,78 @@ interface Service {
 
 const services: Service[] = [
   {
+    link: "/design-and-branding",
+    name: "Design & Branding",
+    description: [
+      {
+        title: "Logo Design",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "We design interactive elements that enhance user engagement and create seamless, intuitive interactions on your website.",
+      },
+      {
+        title: "Colors Palette (CMYK-RGB)",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "We create stunning visual designs that align with your brand identity and engage your users, making your website both beautiful and functional.",
+      },
+      {
+        title: "Typography",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "Our usability testing services ensure that your website is easy to use and meets the needs of your users, providing valuable feedback for continuous improvement.",
+      },
+      {
+        title: "Brand Guidelines",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Creating wireframes and prototypes to visualize the website's layout, structure, and user flow before development begins.",
+      },
+      {
+        title: "Developing a Brand Tagline",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "Ensuring that website designs are responsive and adapt seamlessly to various screen sizes and devices, providing an optimal viewing experience for users.",
+      },
+      {
+        title: "Brand Story",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "We conduct thorough user research and analysis to understand your audience's needs and behaviors, ensuring our designs are user-centric and data-driven.",
+      },
+      {
+        title: "Stamp Design",
+        link: "/ui-ux-design-for-web/ux-audits",
+        desc: "Assessing existing website designs to identify areas for improvement in terms of usability, accessibility, and overall user experience.",
+      },
+      {
+        title: "Facebook Cover and DP",
+        link: "/ui-ux-design-for-web/web-design",
+        desc: "Crafting visually appealing and user-friendly website designs tailored to your clients brand identity and target audience.",
+      },
+      {
+        title: "WhatsApp DP",
+        link: "/ui-ux-design-for-web/ux-design",
+        desc: "Crafting visually appealing and user-friendly website designs tailored to your clients brand identity and target audience.",
+      },
+      {
+        title: "Letterhead Design",
+        link: "/ui-ux-design-for-web/ui-design",
+        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+      },
+      {
+        title: "Business Card Design",
+        link: "/ui-ux-design-for-web/ui-design",
+        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+      },
+      {
+        title: "File Cover Design",
+        link: "/ui-ux-design-for-web/ui-design",
+        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+      },
+      {
+        title: "Envelope Design",
+        link: "/ui-ux-design-for-web/ui-design",
+        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+      },
+    ],
+  },
+
+  {
     link: "/ui-ux-design-for-web",
 
     name: "UI/UX Design For Web",
