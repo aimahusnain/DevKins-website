@@ -105,7 +105,7 @@ export default function UsabilityTesting() {
           <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Why Choose Devkins.dev for Usability Testing?</h2>
           <ul className="space-y-4 text-lg text-gray-600">
             {[
-              'User-Centered Approach: We prioritize your users\' needs and preferences in our testing processes.',
+              'User-Centered Approach: We prioritize your users&apos; needs and preferences in our testing processes.',
               'Experienced Team: Our team of usability experts brings extensive experience and insights to every project.',
               'Actionable Insights: We provide clear, actionable recommendations to improve the usability of your web projects.',
               'Comprehensive Testing: We use a variety of methods and tools to thoroughly test all aspects of your web projects.',

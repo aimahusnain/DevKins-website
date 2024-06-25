@@ -29,7 +29,7 @@ const AppDeploymentOptimization = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-4 text-lg"
           >
-            Optimize and deploy your mobile applications with Devkins' expert app deployment and optimization services.
+            Optimize and deploy your mobile applications with Devkins&apos; expert app deployment and optimization services.
           </motion.p>
         </div>
       </motion.section>

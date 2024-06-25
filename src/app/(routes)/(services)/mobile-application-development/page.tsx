@@ -156,7 +156,7 @@ export default function MobileAppDevelopment() {
           <ul className="space-y-4 text-lg text-gray-600">
             {[
               "Expertise in Mobile Development: Our team has extensive experience in developing high-quality mobile applications across various platforms.",
-              "User-Centric Approach: We focus on understanding your users' needs to create apps that deliver value and enhance user satisfaction.",
+              "User-Centric Approach: We focus on understanding your users&apos; needs to create apps that deliver value and enhance user satisfaction.",
               "Innovative Solutions: We stay updated with the latest technologies and trends to provide innovative solutions that set your app apart.",
               "Comprehensive Services: From design to deployment and maintenance, we offer end-to-end mobile app development services.",
               "Client Satisfaction: We prioritize transparent communication and collaboration to ensure your project meets expectations and deadlines.",
