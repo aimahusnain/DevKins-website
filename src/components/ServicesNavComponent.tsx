@@ -7,7 +7,8 @@ import Link from "next/link";
 interface Service {
   link: string;
   name: string;
-  description: Array<{
+  desc: string;
+  subServices: Array<{
     title: string;
     link: string;
     desc: string;
@@ -16,82 +17,251 @@ interface Service {
 
 const services: Service[] = [
   {
+    link: "/website-development",
+    name: "Website Development",
+    desc: "Website development is essential for establishing an online presence. Our comprehensive services ensure a seamless blend of technology, creativity, and functionality, delivering a superior user experience. From domain purchase to advanced analytics integration, we cover every aspect to create a responsive and dynamic website.",
+    subServices: [
+      {
+        title: "Domain Purchase",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "Secure a memorable domain name that reflects your brand. We assist in choosing and registering the perfect domain to establish your online identity.",
+      },
+      {
+        title: "Hosting Purchased",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "Select and purchase reliable hosting for optimal website performance and security. Our hosting solutions ensure your site is fast, secure, and always accessible.",
+      },
+      {
+        title: "Domain Integration",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "We select and customize fonts that enhance readability and convey your brand's tone and character.",
+      },
+      {
+        title: "All Devices Responsive Website",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Our responsive designs ensure your website looks great and functions flawlessly across all devices, providing an optimal user experience on desktops, tablets, and smartphones.",
+      },
+      {
+        title: "Content Creation",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "Engage your audience with quality content. We create compelling copy, blog posts, and multimedia content that drives traffic and improves SEO.",
+      },
+      {
+        title: "Banners Design",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Capture attention with custom-designed banners. Our team creates visually appealing banners that align with your brand and marketing goals.",
+      },
+      {
+        title: "Apps Integration",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Enhance your website's functionality with seamless app integrations, including e-commerce platforms, social media widgets, and custom applications.",
+      },
+      {
+        title: "Google Analytics Integration",
+        link: "/ui-ux-design-for-web/ux-audits",
+        desc: "Gain insights into your website's performance with Google Analytics. We provide detailed data on audience behavior, traffic sources, and conversion rates to help you optimize your site.",
+      },
+      {
+        title: "Business Manager Integration",
+        link: "/ui-ux-design-for-web/web-design",
+        desc: "Streamline your social media and advertising management with Business Manager integration, centralizing your tools for efficient marketing efforts.",
+      },
+      {
+        title: "Google Search Console Setup",
+        link: "/ui-ux-design-for-web/ux-design",
+        desc: "Improve search engine visibility with Google Search Console. We set up and configure your account to monitor performance, identify issues, and optimize your content.",
+      },
+      {
+        title: "Facebook Pixel Setup",
+        link: "/ui-ux-design-for-web/ui-design",
+        desc: "Optimize your Facebook ad campaigns with Facebook Pixel integration. Track and analyze ad performance to improve targeting and increase ROI.",
+      },
+    ],
+  },
+
+  {
+    link: "/website-development",
+    name: "Website Development 2",
+    desc: "Website development is essential for establishing an online presence. Our comprehensive services ensure a seamless blend of technology, creativity, and functionality, delivering a superior user experience. From domain purchase to advanced analytics integration, we cover every aspect to create a responsive and dynamic website.",
+    subServices: [
+      {
+        title: "Custom Website Design",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "Tailored website designs created from scratch based on client specifications and requirements.",
+      },
+      {
+        title: "Responsive Web Design",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "Ensuring that websites are optimized for various devices and screen sizes, providing an optimal viewing experience for users.",
+      },
+      {
+        title: "E-commerce Website Design",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "Designing online stores with user-friendly interfaces, secure payment gateways, and seamless shopping experiences.",
+      },
+      {
+        title: "CMS Integration",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Integrating content management systems (CMS) like WordPress, Joomla, or Drupal to allow clients to easily manage and update their website content.",
+      },
+      {
+        title: "SEO-friendly Design",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "Designing websites with search engine optimization (SEO) best practices in mind to improve visibility and rankings on search engine results pages.",
+      },
+      {
+        title: "Website Redesign",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Updating and modernizing existing websites to improve functionality, aesthetics, and performance.",
+      },
+      {
+        title: "Maintenance and Support",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Offer ongoing maintenance and support services to ensure websites remain up-to-date, secure, and performing optimally post-launch.",
+      },
+      {
+        title: "Performance Optimization",
+        link: "/ui-ux-design-for-web/ux-audits",
+        desc: "Discuss your approach to optimizing website performance, including factors such as page load speed, mobile responsiveness, and overall user experience.",
+      },
+    ],
+  },
+
+  {
+    link: "/packaging-design",
+    name: "Packaging Design",
+    desc: "Packaging Design is essential for creating a memorable brand experience and ensuring your product stands out. We specialize in innovative and attractive packaging solutions that protect your product and captivate your audience.",
+    subServices: [
+      {
+        title: "Label Design",
+        link: "/ui-ux-design-for-web/interaction",
+        desc: "Eye-catching and informative labels that highlight your brand and meet regulatory standards.",
+      },
+      {
+        title: "Box Design",
+        link: "/ui-ux-design-for-web/visual-design",
+        desc: "Custom-designed boxes that protect your product and enhance the unboxing experience.",
+      },
+      {
+        title: "PR Box Design",
+        link: "/ui-ux-design-for-web/usability-testing",
+        desc: "Luxurious PR boxes crafted to impress influencers, journalists, and potential customers.",
+      },
+      {
+        title: "Butter Paper Design",
+        link: "/ui-ux-design-for-web/wireframing-prototyping",
+        desc: "Stylish and practical butter paper designs that keep your product fresh and appealing.",
+      },
+      {
+        title: "Sticker Design",
+        link: "/ui-ux-design-for-web/responsive-design",
+        desc: "Versatile and vibrant stickers for branding, promotions, and decorative purposes.",
+      },
+      {
+        title: "Product Descriptions",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Compelling, SEO-friendly product descriptions that showcase your product's features and benefits.",
+      },
+      {
+        title: "How to use",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Clear and visually appealing usage instructions to ensure customer satisfaction and safety.",
+      },
+      {
+        title: "Cautions",
+        link: "/ui-ux-design-for-web/ux-audits",
+        desc: "Noticeable and effective cautionary information to protect your customers and your brand.",
+      },
+      {
+        title: "QR Codes Design",
+        link: "/ui-ux-design-for-web/web-design",
+        desc: "Custom QR codes that provide instant access to additional information, seamlessly integrated into your packaging.",
+      },
+    ],
+  },
+  {
     link: "/design-and-branding",
     name: "Design & Branding",
-    description: [
+    desc: "Welcome to our Design and Branding hub, where creativity meets strategy. We specialize in transforming ideas into captivating visuals and compelling narratives.",
+    subServices: [
       {
         title: "Logo Design",
         link: "/ui-ux-design-for-web/interaction",
-        desc: "We design interactive elements that enhance user engagement and create seamless, intuitive interactions on your website.",
+        desc: "We create unique, memorable logos that embody your brand's identity and resonate with your audience.",
       },
       {
         title: "Colors Palette (CMYK-RGB)",
         link: "/ui-ux-design-for-web/visual-design",
-        desc: "We create stunning visual designs that align with your brand identity and engage your users, making your website both beautiful and functional.",
+        desc: "Our cohesive color palettes ensure consistency across print (CMYK) and digital (RGB), evoking the right emotions for your brand.",
       },
       {
         title: "Typography",
         link: "/ui-ux-design-for-web/usability-testing",
-        desc: "Our usability testing services ensure that your website is easy to use and meets the needs of your users, providing valuable feedback for continuous improvement.",
+        desc: "We select and customize fonts that enhance readability and convey your brand's tone and character.",
       },
       {
         title: "Brand Guidelines",
         link: "/ui-ux-design-for-web/wireframing-prototyping",
-        desc: "Creating wireframes and prototypes to visualize the website's layout, structure, and user flow before development begins.",
+        desc: "Our detailed brand guidelines ensure consistent use of logos, colors, typography, and imagery across all communications.",
       },
       {
         title: "Developing a Brand Tagline",
         link: "/ui-ux-design-for-web/responsive-design",
-        desc: "Ensuring that website designs are responsive and adapt seamlessly to various screen sizes and devices, providing an optimal viewing experience for users.",
+        desc: "We craft memorable taglines that encapsulate your brand's essence and differentiate you from competitors.",
       },
       {
         title: "Brand Story",
         link: "/ui-ux-design-for-web/URA",
-        desc: "We conduct thorough user research and analysis to understand your audience's needs and behaviors, ensuring our designs are user-centric and data-driven.",
+        desc: "We articulate your journey, values, and vision, creating a compelling narrative that resonates with your audience.",
+      },
+      {
+        title: "Brand Patterns Design",
+        link: "/ui-ux-design-for-web/URA",
+        desc: "Unique patterns that reinforce your visual identity and add depth to your brand's appearance.",
       },
       {
         title: "Stamp Design",
         link: "/ui-ux-design-for-web/ux-audits",
-        desc: "Assessing existing website designs to identify areas for improvement in terms of usability, accessibility, and overall user experience.",
+        desc: "Distinctive stamps for branding documents, packaging, and other materials, enhancing your professional image.",
       },
       {
         title: "Facebook Cover and DP",
         link: "/ui-ux-design-for-web/web-design",
-        desc: "Crafting visually appealing and user-friendly website designs tailored to your clients brand identity and target audience.",
+        desc: "Eye-catching Facebook covers and display pictures that reflect your brand’s identity and attract attention.",
       },
       {
         title: "WhatsApp DP",
         link: "/ui-ux-design-for-web/ux-design",
-        desc: "Crafting visually appealing and user-friendly website designs tailored to your clients brand identity and target audience.",
+        desc: "Compelling WhatsApp display pictures that represent your brand’s personality consistently across platforms.",
       },
       {
         title: "Letterhead Design",
         link: "/ui-ux-design-for-web/ui-design",
-        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+        desc: "Professional letterheads that incorporate your logo, colors, and typography for consistent and credible correspondence.",
       },
       {
         title: "Business Card Design",
         link: "/ui-ux-design-for-web/ui-design",
-        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+        desc: "Visually appealing and informative business cards that leave a lasting impression.",
       },
       {
         title: "File Cover Design",
         link: "/ui-ux-design-for-web/ui-design",
-        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+        desc: "Custom file covers that are practical and visually consistent with your brand's identity.",
       },
       {
         title: "Envelope Design",
         link: "/ui-ux-design-for-web/ui-design",
-        desc: "Designing the visual elements of the website interface, including typography, color schemes, icons, buttons, and other interactive elements.",
+        desc: "Distinctive envelopes that complement your brand's visual identity, making your mail stand out.",
       },
     ],
   },
 
   {
     link: "/ui-ux-design-for-web",
-
+    desc: "",
     name: "UI/UX Design For Web",
-    description: [
+    subServices: [
       {
         title: "Interaction Design",
         link: "/ui-ux-design-for-web/interaction",
@@ -148,7 +318,9 @@ const services: Service[] = [
   {
     link: "/ui-ux-design-for-app",
     name: "UI/UX Design For Mobile",
-    description: [
+    desc: "",
+
+    subServices: [
       {
         title: "User Research and Analysis",
         link: "/ui-ux-design-for-app/user-research-&-analysis",
@@ -195,7 +367,9 @@ const services: Service[] = [
   {
     link: "/mobile-application-development",
     name: "Mobile Application Development",
-    description: [
+    desc: "",
+
+    subServices: [
       {
         title: "iOS App Development",
         link: "/mobile-application-development/ios-app-dev",
@@ -246,7 +420,9 @@ const services: Service[] = [
   {
     link: "/graphicDesigns",
     name: "Graphic Design",
-    description: [
+    desc: "",
+
+    subServices: [
       {
         title: "Logo Design",
         link: "/graphicDesigns/logo-designing",
@@ -287,7 +463,9 @@ const services: Service[] = [
   {
     link: "/digital-marketing",
     name: "Digital Marketing",
-    description: [
+    desc: "",
+
+    subServices: [
       {
         title: "Analytics and Performance Tracking",
         link: "/digital-marketing/ap-tracking",
@@ -338,7 +516,9 @@ const services: Service[] = [
   {
     link: "/VideoEditing",
     name: "Video Editing",
-    description: [
+    desc: "",
+
+    subServices: [
       {
         title: "Professional Editing",
         link: "/VideoEditing/pro-editing",
@@ -374,7 +554,9 @@ const services: Service[] = [
   {
     link: "/quickbooks",
     name: "QuickBooks",
-    description: [
+    desc: "",
+
+    subServices: [
       {
         title: "QuickBooks Setup, Installation Customization",
         link: "/quickbooks/setup",
@@ -447,8 +629,9 @@ const ServicesDropdown = () => {
             {hoveredService ? (
               <div className="">
                 <h2 className="text-2xl font-bold">{hoveredService.name}</h2>
+                <p className="text-sm font-normal">{hoveredService.desc}</p>
                 <div className="flex flex-col">
-                  {hoveredService.description.map((desc, idx) => (
+                  {hoveredService.subServices.map((desc, idx) => (
                     <Link
                       onClick={handleLinkClick}
                       href={desc.link}
