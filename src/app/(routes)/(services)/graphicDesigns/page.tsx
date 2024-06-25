@@ -88,7 +88,7 @@ const GraphicDesignServices = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
-              <Link href={`/graphicDesigns/${service.link}`}>
+              <Link key={index} href={`/graphicDesigns/${service.link}`}>
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.05 }}
@@ -111,7 +111,7 @@ const GraphicDesignServices = () => {
           className="text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ready to Transform Your Brand?</h2>
-          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our graphic design services can elevate your brand's visual identity.</p>
+          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our graphic design services can elevate your brand&apos;s visual identity.</p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

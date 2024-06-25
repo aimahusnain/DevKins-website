@@ -614,7 +614,7 @@ const ServicesDropdown = () => {
         <div className="flex h-full">
           <div className="w-1/4 bg-gray-200 p-4 rounded-lg mr-4">
             {services.map((service, index) => (
-              <Link onClick={handleLinkClick} href={`${service.link}`}>
+              <Link key={index} onClick={handleLinkClick} href={`${service.link}`}>
                 <div
                   key={index}
                   onMouseEnter={() => setHoveredService(service)}

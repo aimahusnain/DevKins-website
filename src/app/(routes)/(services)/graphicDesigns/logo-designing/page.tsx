@@ -72,7 +72,7 @@ const LogoDesign = () => {
 
         <section className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ready to Build Your Brand?</h2>
-          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our logo design services can enhance your brand's visual identity.</p>
+          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our logo design services can enhance your brand&apos;s visual identity.</p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

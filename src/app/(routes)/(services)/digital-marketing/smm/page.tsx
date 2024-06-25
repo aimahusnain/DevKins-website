@@ -57,7 +57,7 @@ const SMM: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-4 text-lg"
           >
-            Elevate your brand's presence with our comprehensive social media marketing services.
+            Elevate your brand&apos;s presence with our comprehensive social media marketing services.
           </motion.p>
         </div>
       </motion.section>
@@ -88,7 +88,7 @@ const SMM: React.FC = () => {
         {/* CTA Section */}
         <section className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ready to Boost Your Social Media Presence?</h2>
-          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our social media marketing services can enhance your brand's online visibility.</p>
+          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our social media marketing services can enhance your brand&apos;s online visibility.</p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

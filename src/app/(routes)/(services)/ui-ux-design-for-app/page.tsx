@@ -119,7 +119,7 @@ export default function UIUXMobile() {
                 "Our responsive design services ensure that your mobile application looks and functions perfectly on all devices, providing a consistent user experience across platforms.",
               },
             ].map((service, index) => (
-              <Link href={`/ui-ux-design-for-app/${service.link}`}>
+              <Link key={index} href={`/ui-ux-design-for-app/${service.link}`}>
               <motion.div
               key={index}
               className="bg-white p-8 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"

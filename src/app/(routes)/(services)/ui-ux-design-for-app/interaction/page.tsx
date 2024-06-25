@@ -109,7 +109,7 @@ export default function InteractionDesign() {
         <section>
           <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Get Started with Interaction Design</h2>
           <p className="text-lg text-gray-600 mb-8">
-            Ready to elevate your app's user experience with interactive design? Contact us today to discuss your project requirements.
+            Ready to elevate your app&apos;s user experience with interactive design? Contact us today to discuss your project requirements.
           </p>
           <motion.button
             className="px-8 py-4 bg-indigo-600 text-white font-bold rounded-lg shadow hover:bg-indigo-700 transition-colors duration-300"

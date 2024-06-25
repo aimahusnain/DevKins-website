@@ -27,7 +27,7 @@ export default function MobileUsabilityTesting() {
             Mobile Usability Testing
           </motion.h2>
           <motion.p className="mt-4 text-lg" variants={slideInUp}>
-            Enhance your mobile app's user experience with comprehensive usability testing.
+            Enhance your mobile app&apos;s user experience with comprehensive usability testing.
           </motion.p>
         </div>
       </motion.section>
@@ -109,7 +109,7 @@ export default function MobileUsabilityTesting() {
         <section>
           <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Get Started with Mobile Usability Testing</h2>
           <p className="text-lg text-gray-600 mb-8">
-            Ready to improve your app's usability? Contact us today to discuss how our mobile usability testing services can benefit your project.
+            Ready to improve your app&apos;s usability? Contact us today to discuss how our mobile usability testing services can benefit your project.
           </p>
           <motion.button
             className="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg shadow hover:bg-blue-700 transition-colors duration-300"

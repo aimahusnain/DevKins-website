@@ -14,16 +14,16 @@ const Quickbooks = () => {
       <main className="container mx-auto px-4 py-8">
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-purple-800">Our QuickBooks Services</h2>
-          <p className="mt-2 text-gray-700">Managing your finances is crucial to the success of your business. That's why at Devkins, we offer a complete range of QuickBooks services designed to help you stay organized, compliant, and focused on what you do best: growing your business.</p>
+          <p className="mt-2 text-gray-700">Managing your finances is crucial to the success of your business. That&apos;s why at Devkins, we offer a complete range of QuickBooks services designed to help you stay organized, compliant, and focused on what you do best: growing your business.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <Link href='/quickbooks/setup' className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-purple-800">QuickBooks Setup, Installation and Customization</h3>
-              <p className="mt-2 text-gray-700">Getting started with QuickBooks has never been easier. Our experts will set up and customize your QuickBooks account to match your business's unique requirements.</p>
+              <p className="mt-2 text-gray-700">Getting started with QuickBooks has never been easier. Our experts will set up and customize your QuickBooks account to match your business&apos;s unique requirements.</p>
             </Link>
             <Link href='/quickbooks/training' className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-purple-800">QuickBooks Training</h3>
-              <p className="mt-2 text-gray-700">We provide comprehensive training to ensure you and your team can use QuickBooks with confidence. Plus, our ongoing support means we're always here to help when you need us.</p>
+              <p className="mt-2 text-gray-700">We provide comprehensive training to ensure you and your team can use QuickBooks with confidence. Plus, our ongoing support means we&apos;re always here to help when you need us.</p>
             </Link>
             <Link href='/quickbooks/Integration' className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-purple-800">QuickBooks Integration</h3>
@@ -35,7 +35,7 @@ const Quickbooks = () => {
             </Link>
             <Link href='/quickbooks/troubleshooting-support' className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-purple-800">QuickBooks Troubleshooting and Support</h3>
-              <p className="mt-2 text-gray-700">Encountered an issue with QuickBooks? Our troubleshooting services are here to help. We'll diagnose and fix problems quickly, minimizing downtime.</p>
+              <p className="mt-2 text-gray-700">Encountered an issue with QuickBooks? Our troubleshooting services are here to help. We&apos;ll diagnose and fix problems quickly, minimizing downtime.</p>
             </Link>
             <Link href='/quickbooks/Consulting' className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-purple-800">QuickBooks Consulting</h3>

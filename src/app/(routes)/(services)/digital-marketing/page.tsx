@@ -105,7 +105,7 @@ export default function DigitalMarketing() {
                 description: 'Monitor and analyze campaign performance to optimize strategies and maximize ROI.'
               }
             ].map((service, index) => (
-              <Link href={`/digital-marketing/${service.link}`}>
+              <Link key={index} href={`/digital-marketing/${service.link}`}>
               <motion.div
                 key={index}
                 className="bg-white p-8 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"

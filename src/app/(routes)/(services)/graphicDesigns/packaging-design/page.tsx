@@ -50,7 +50,7 @@ const PackagingDesign = () => {
               className="bg-white rounded-lg shadow-md p-6"
             >
               <h3 className="text-xl font-bold mb-2">Custom Packaging Designs</h3>
-              <p className="text-gray-600">Tailored designs that reflect your brand's identity and enhance product visibility.</p>
+              <p className="text-gray-600">Tailored designs that reflect your brand&apos;s identity and enhance product visibility.</p>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
@@ -79,7 +79,7 @@ const PackagingDesign = () => {
           className="text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Enhance Your Product Appeal</h2>
-          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our packaging design services can elevate your brand's product presentation.</p>
+          <p className="text-lg text-gray-600 mb-8">Contact us today to discuss how our packaging design services can elevate your brand&apos;s product presentation.</p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -90,18 +90,6 @@ const PackagingDesign = () => {
           </motion.div>
         </motion.section>
       </main>
-
-      {/* Footer */}
-      <motion.footer
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 1.1 }}
-        className="bg-gray-800 text-white py-6 text-center"
-      >
-        <div className="container mx-auto px-6">
-          <p>© 2024 Devkins. All rights reserved.</p>
-        </div>
-      </motion.footer>
     </div>
   );
 };

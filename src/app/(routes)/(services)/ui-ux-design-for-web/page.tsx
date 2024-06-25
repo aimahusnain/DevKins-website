@@ -125,7 +125,7 @@ export default function UIUX() {
                   "Our responsive design services ensure that your website looks and functions perfectly on all devices, providing a consistent user experience across platforms.",
               },
             ].map((service, index) => (
-              <Link href={`/ui-ux-design-for-web/${service.link}`}>
+              <Link key={index} href={`/ui-ux-design-for-web/${service.link}`}>
                 <motion.div
                   key={index}
                   className="bg-white p-8 rounded-lg shadow hover:shadow-lg transition-shadow duration-300"
